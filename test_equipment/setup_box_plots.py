@@ -14,7 +14,7 @@ Author:
 import os, sys
 if os.path.abspath('../..') not in sys.path:
     sys.path.append(os.path.abspath('../..'))
-from SM_openSMILE.utilities import cmi_color_pallette as ccp
+from test_recording_equipment.utilities import cmi_color_pallette as ccp
 import openSMILE_dir_to_csv as odtc, pandas as pd, matplotlib.pyplot as plt, \
        seaborn as sns, subprocess
 

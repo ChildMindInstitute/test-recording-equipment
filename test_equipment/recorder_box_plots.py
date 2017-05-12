@@ -14,7 +14,7 @@ Author:
 import os, sys
 if os.path.abspath('../..') not in sys.path:
     sys.path.append(os.path.abspath('../..'))
-from SM_openSMILE.utilities import cmi_color_pallette as ccp
+from test_recording_equipment.utilities import cmi_color_pallette as ccp
 import openSMILE_dir_to_csv as odtc, pandas as pd, matplotlib.pyplot as plt, \
        seaborn as sns, subprocess
 
@@ -65,7 +65,7 @@ def plot(dataframe, directory):
 
 def main():
     tippy_top = input("Top directory for recorder test: ")
-    # tippy_top = "/Users/jon.clucas/SM_openSMILE/test_equipment/recorder_test"
+    # tippy_top = "/Users/jon.clucas/test_recording_equipment/test_equipment/recorder_test"
     top_dirs = [os.path.join(tippy_top, "sentences/ComParE_2016"),
                 os.path.join(tippy_top, "sentences/emobase"),
                 os.path.join(tippy_top, "word_list/ComParE_2016"),

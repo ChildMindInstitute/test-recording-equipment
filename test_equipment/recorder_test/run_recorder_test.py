@@ -15,7 +15,7 @@ def recurse(top_dir):
     """
     Function to recursively collect the absolute paths of all files in
     `top_dir`.
-    https://github.com/shnizzedy/recurse
+    https://github.com/ChildMindInstitute/recurse
     
     Parameters
     ----------
